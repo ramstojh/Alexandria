@@ -17,30 +17,7 @@ Dependencies
 The main dependencies of *terra* are `pandas <https://pandas.pydata.org/>`_, `NumPy <https://numpy.org/>`_, `Astropy <https://www.astropy.org/>`_, `matplotlib <https://matplotlib.org/>`_, `tqdm <https://tqdm.github.io/>`_, and `os <https://docs.python.org/3/library/os.html>`_. 
 These are installed using pip::
 
-    pip install pandas numpy astropy matplotlib tqdm numpy 
-    
-Example usage
--------------
-
-.. code-block:: python
-
-    from terra import pacha
-    
-    # Computing the convective mass of a star with [Fe/H] = 0.164 dex 
-    # and mass = 1.18 solar masses
-    # The mass can take values from 0.5 <= M <= 1.3 (solar mass)
-    # The [Fe/H] can take values from -1.0 <= [Fe/H] <= 0.3 (dex)
-    # By default the code computes the convective mass using the Yale isocrhones of stellar evolution
-    terra.cvmass(feh=0.1, mass=1)
-    
-    # Computing the abundance pattern of a star with [Fe/H] = 0.164 dex and mass = 1.14 M_sun
-    # obs_abd.csv is a table containing the observed abundance.
-    terra.pacha(feh=0.164, mass=1 data_input='obs_abd.csv')
-    
-    # If you want to save the outputs (figures and tables) with the star name (e.g., HIP 71726).
-    terra.pacha(feh=0.164, mass=1, Mcon=0.01, data_input='obs_abd.csv', data_output='HIP71726')
-    
-    #For more details please see the terra's tutorial within the file terra_example file
+    pip install terra-2.0 qoyllur-quipu PyAstronomy PyPDF2 pandas numpy astropy matplotlib tqdm numpy 
     
 
 Author
