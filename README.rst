@@ -4,10 +4,6 @@
 
 Installation
 ------------
-* Install Sphinx by typing the following commands to the terminal::
-
-     easy_install pip
-
 The only way to install *Alexandria11* is through pip::
 
     pip install Alexandria11
