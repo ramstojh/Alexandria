@@ -14,7 +14,7 @@ If you already have *Alexandria11* installed, you should consider upgrading to t
 
 Dependencies
 ------------
-The main dependencies of *Alexandria11* are `terra <https://github.com/ramstojh/terra/>`_, `pandas <https://pandas.pydata.org/>`_, `NumPy <https://numpy.org/>`_, `Astropy <https://www.astropy.org/>`_, `matplotlib <https://matplotlib.org/>`_, `tqdm <https://tqdm.github.io/>`_, and `os <https://docs.python.org/3/library/os.html>`_. 
+The main dependencies of *Alexandria11* are `terra <https://github.com/ramstojh/terra/>`_, `q2 <https://github.com/astroChasqui/q2/>`_, `pandas <https://pandas.pydata.org/>`_, `NumPy <https://numpy.org/>`_, `Astropy <https://www.astropy.org/>`_, `matplotlib <https://matplotlib.org/>`_, `tqdm <https://tqdm.github.io/>`_, and `os <https://docs.python.org/3/library/os.html>`_. 
 These are installed using pip::
 
     pip install terra-2.0 qoyllur-quipu PyAstronomy PyPDF2 pandas numpy astropy matplotlib tqdm numpy 
